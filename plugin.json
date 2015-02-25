@@ -1,0 +1,19 @@
+{
+  "description" : "Awaiting Certification - Collects statistics from WMI",
+  "icon" : "icon.png",
+  "command" : "boundary-meter index.lua",
+  "command_lua" : "boundary-meter index.lua",
+  "postExtract_lua" : "",
+  "ignore" : "node_modules",
+
+  "metrics" : [
+                
+	],
+
+	"dashboards": [
+        
+    ],
+    "paramSchema" : [
+       
+    ]
+}
