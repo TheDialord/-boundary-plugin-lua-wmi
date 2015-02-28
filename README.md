@@ -42,7 +42,7 @@ Extracts metrics from a WMI instances.
 ### Plugin Configuration Fields
 |Field Name|Description                                     |
 |:-------|:-------------------------------------------------|
-|        |                                                  |
+|Source  |display name                                      |
 
 
 ### Metrics Collected
