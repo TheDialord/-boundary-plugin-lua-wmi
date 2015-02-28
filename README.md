@@ -18,31 +18,20 @@ Extracts metrics from a WMI instances.
 
 ### Plugin Setup
 
-- [How to install LuaCom (Required)?](https://github.com/davidm/luacom)
-	LuaCOM is an add-on library to the Lua language <http://www.lua.org>
-	that allows Lua programs to use and implement objects that follow
-	the Microsoft's Component Object Model (COM) specification and
-	the ActiveX technology for property access and method calls.
-
 #### Installation of Luvit to test plugin
 
 1. Compile Luvit from SRC
 
      ```Make.bat``` for Windows ```Makefile``` for nix-based OS
 	 
-2. Compile LuaCom
-
-	[Download Bin LuaCom for Windows](http://files.luaforge.net/releases/luacom/luacom) 
-	for Windows
-	 
-3. You may use boundary-meter. Before params.json should be changed for choosen instances.
+2. You may use boundary-meter. Before params.json should be changed for choosen instances.
 
 	```boundary-meter index.lua```
 
 ### Plugin Configuration Fields
 |Field Name|Description                                     |
 |:-------|:-------------------------------------------------|
-|        |                                                  |
+|Source  |display name                                      |
 
 
 ### Metrics Collected
