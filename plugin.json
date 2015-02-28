@@ -7,13 +7,25 @@
   "ignore" : "node_modules",
 
   "metrics" : [
-                
+                 "WMI_PERCENT_PROCESSOR_TIME",
+                 "WMI_PERCENT_DISKS_TIME",
+                 "WMI_ALLOCATION_AVAILABLE_BYTES",
+                 "WMI_MEMORY_SWAP_RATE",
+                 "WMI_FREE_DISKS_SPACE",
+                 "WMI_NETWORK_BYTES_RECEIVED_PERSEC",
+                 "WMI_NETWORK_BYTES_SENT_PERSEC",
+                 "WMI_CONNECTIONS_ESTABLISHED"
 	],
 
 	"dashboards": [
         
     ],
     "paramSchema" : [
-       
+       {
+            "title" : "source",
+            "description" : "display name",
+            "type" : "string",
+            "default" : "My_WMI"
+        }
     ]
 }

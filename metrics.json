@@ -7,7 +7,7 @@
             "displayName": "Percent Processor Time",
             "displayNameShort": "WMI - Perc Proc Time",
             "isDisabled": 0,
-            "name": "PERCENT_PROCESSOR_TIME",
+            "name": "WMI_PERCENT_PROCESSOR_TIME",
             "unit": "number"
         },
 		{
@@ -17,7 +17,7 @@
             "displayName": "Percent Disks Time",
             "displayNameShort": "WMI - Perc Disks Time",
             "isDisabled": 0,
-            "name": "PERCENT_DISKS_TIME",
+            "name": "WMI_PERCENT_DISKS_TIME",
             "unit": "number"
         },
 		{
@@ -27,7 +27,7 @@
             "displayName": "Allocation Available Bytes",
             "displayNameShort": "WMI - Available Bytes",
             "isDisabled": 0,
-            "name": "ALLOCATION_AVAILABLE_BYTES",
+            "name": "WMI_ALLOCATION_AVAILABLE_BYTES",
             "unit": "number"
         },
 		{
@@ -37,7 +37,7 @@
             "displayName": "Swap Memory Rate",
             "displayNameShort": "WMI - Swap Rate",
             "isDisabled": 0,
-            "name": "MEMORY_SWAP_RATE",
+            "name": "WMI_MEMORY_SWAP_RATE",
             "unit": "number"
         },
 		{
@@ -47,7 +47,7 @@
             "displayName": "Free space on disks",
             "displayNameShort": "WMI - disks space",
             "isDisabled": 0,
-            "name": "FREE_DISKS_SPACE",
+            "name": "WMI_FREE_DISKS_SPACE",
             "unit": "number"
         },
 		{
@@ -57,7 +57,7 @@
             "displayName": "Network receiving per second",
             "displayNameShort": "WMI - network receiving",
             "isDisabled": 0,
-            "name": "NETWORK_BYTES_RECEIVED_PERSEC",
+            "name": "WMI_NETWORK_BYTES_RECEIVED_PERSEC",
             "unit": "number"
         },
 		{
@@ -67,7 +67,7 @@
             "displayName": "Network sending per second",
             "displayNameShort": "WMI - network sending",
             "isDisabled": 0,
-            "name": "NETWORK_BYTES_SENT_PERSEC",
+            "name": "WMI_NETWORK_BYTES_SENT_PERSEC",
             "unit": "number"
         },
 		{
@@ -77,7 +77,7 @@
             "displayName": "TCP/IP Connections",
             "displayNameShort": "WMI - Connections",
             "isDisabled": 0,
-            "name": "CONNECTIONS_ESTABLISHED",
+            "name": "WMI_CONNECTIONS_ESTABLISHED",
             "unit": "number"
         }
     ]
