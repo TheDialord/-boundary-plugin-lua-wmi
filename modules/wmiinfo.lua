@@ -10,6 +10,8 @@ local object = require('core').Object
 local io = require('io')
 local ffi = require('ffi')
 local os = require('os')
+local string = require('string')
+local table = require('table')
 
 local function callIfNotNil(callback, ...)
     if callback ~= nil then

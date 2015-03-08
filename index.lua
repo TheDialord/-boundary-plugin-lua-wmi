@@ -1,5 +1,6 @@
 local boundary = require('boundary')
 local wminfo = require('wmiinfo')
+local string = require('string')
 
 -- Default params
 local source = ""
